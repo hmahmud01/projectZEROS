@@ -12,8 +12,13 @@ p{
     /* width: 100vw; */
 }
 
+/* heights clasess */
 .h-100{
     height: 100vh;
+}
+
+.h-70{
+    height: 70vh;
 }
 
 .h-80{
@@ -81,10 +86,36 @@ p{
     color:#5a3a68;
 }
 
+.logo-size{
+    width: 128px;
+}
+
+.copy {
+    font-size: 1rem;
+    color: #e8a37a;
+}
+
 
 /* height response fore device */
 @media (max-width: 420px) {
     .uk-height-responsive {
         height: 800px;
     }
+}
+
+
+
+/* Overriding uikit css */
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #120529;
+  }
+
+
+  /* map size */
+#map {
+    height: 100%;
+}
+
+.h-1-1{
+    height: 100%;
 }
