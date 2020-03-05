@@ -67,3 +67,24 @@ p{
     color: #000;
     border: 1px solid transparent;
 }
+
+.zeros-head{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 5px;
+    font-size: 2.7rem;
+    color:#cc569e !important;
+}
+
+.zeros-sub-head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
+    color:#5a3a68;
+}
+
+
+/* height response fore device */
+@media (max-width: 420px) {
+    .uk-height-responsive {
+        height: 800px;
+    }
+}
